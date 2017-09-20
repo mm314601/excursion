@@ -1,14 +1,14 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 /*There's a lot going on with this header.*/
 h1 {
   font-family: Verdana, sans-serif;
-    font-size: 50px;
-    font-weight: normal;
-    color: white;
-    text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  color: white;
+  text-align: center;
 }
 
 /*Everything here is centered. But what if I decide it shouldn't be?*/
@@ -26,7 +26,12 @@ using this method.*/
   text-align: center;
 }
 
-/*There's only one piece of text that uses this formatting.*/
+/*There's no good word for right-aligned. "right-aligned" is two words.*/
+.righted {
+  text-align: right;
+}
+
+/*There are two pieces of text that use this formatting.*/
 .descriptive {
   font-family: Verdana;
   font-size: 21px;
@@ -35,22 +40,12 @@ using this method.*/
 
 /*There's only two links in this thing and they're both this color.*/
 a {
-    color: Aquamarine;
+  color: Aquamarine;
 }
-
 
 h2 {
-    font-family: Verdana;
-    font-weight: 300;
-    color: white;
-    font-size: 42px;
-}
-
-p {
-    color: Gray;
-    font-size: 21px;
-}
-
-.footer {
-    text-align: right;
+  font-family: Verdana;
+  font-weight: 300;
+  color: white;
+  font-size: 42px;
 }
